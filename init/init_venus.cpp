@@ -90,6 +90,8 @@ void vendor_load_properties() {
       model_property_override("star", "Mi 11 Ultra");
     } else if (sku == "mars") {
       model_property_override("mars", "Mi 11 Pro");
+    } else if (sku == "redwood") {
+      model_property_override("redwood", "Poco X5 Pro 5G");
     } else {
       model_property_override("unknow", "unknow name");
     }
